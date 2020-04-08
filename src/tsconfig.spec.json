@@ -11,8 +11,13 @@
     "test.ts",
     "polyfills.ts"
   ],
-  "include": [
+  "exclude": [
     "**/*.spec.ts",
-    "**/*.d.ts"
-  ]
+    "**/*.d.ts" ,
+    "**/*.js"
+  ],
+  "linterOptions": {
+    "exclude": ["**/*.js"]
+  }
+
 }

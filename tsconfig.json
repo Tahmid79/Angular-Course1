@@ -17,5 +17,12 @@
       "es2017",
       "dom"
     ]
+  },
+  "linterOptions": {
+    "exclude": [
+      "**/*.spec.ts",
+      "**/*.d.ts" ,
+      "**/*.js"
+    ]
   }
 }
